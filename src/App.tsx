@@ -3,7 +3,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const urlToShare = "https://deploy-vercel-react-js.vercel.app";
+  const urlToShare = "https://deploy-vercel-react-js.vercel.app/watch?v=1123456789";
 
   const handleShare = () => {
     const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
