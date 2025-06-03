@@ -3,7 +3,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const urlToShare = "https://deploy-vercel-react-js.vercel.app/watch?v=1123456789";
+  const urlToShare = "https://deploy-vercel-react-js.vercel.app?v=1123456789";
 
   const handleShare = () => {
     const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
@@ -24,9 +24,8 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={handleShare}>
-          Share on Facebook
-        </button>
+        <h3>Chào cả nhà một cái nào hú hú</h3>
+        <button onClick={handleShare}>Share on Facebook</button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
